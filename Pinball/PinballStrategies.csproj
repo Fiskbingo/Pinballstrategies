@@ -256,6 +256,9 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="html\batman.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="html\drwho.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

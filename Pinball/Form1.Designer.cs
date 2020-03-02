@@ -38,13 +38,13 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.about1 = new Pinball.about();
             this.drwho1 = new Pinball.drwho();
             this.congo1 = new Pinball.congo();
             this.alien1 = new Pinball.Alien();
             this.start1 = new Pinball.Start();
             this.twd1 = new Pinball.twd();
             this.batman661 = new Pinball.batman66();
-            this.about1 = new Pinball.about();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
@@ -144,6 +144,14 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // about1
+            // 
+            this.about1.BackColor = System.Drawing.Color.Black;
+            this.about1.Location = new System.Drawing.Point(202, 119);
+            this.about1.Name = "about1";
+            this.about1.Size = new System.Drawing.Size(1716, 992);
+            this.about1.TabIndex = 6;
+            // 
             // drwho1
             // 
             this.drwho1.AutoSize = true;
@@ -184,6 +192,7 @@
             // twd1
             // 
             this.twd1.BackColor = System.Drawing.Color.Black;
+            this.twd1.Cursor = System.Windows.Forms.Cursors.Default;
             this.twd1.Location = new System.Drawing.Point(191, 116);
             this.twd1.Name = "twd1";
             this.twd1.Size = new System.Drawing.Size(1785, 992);
@@ -196,14 +205,6 @@
             this.batman661.Name = "batman661";
             this.batman661.Size = new System.Drawing.Size(1785, 992);
             this.batman661.TabIndex = 3;
-            // 
-            // about1
-            // 
-            this.about1.BackColor = System.Drawing.Color.Black;
-            this.about1.Location = new System.Drawing.Point(202, 119);
-            this.about1.Name = "about1";
-            this.about1.Size = new System.Drawing.Size(1716, 992);
-            this.about1.TabIndex = 6;
             // 
             // Form1
             // 
@@ -220,9 +221,10 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.twd1);
             this.Controls.Add(this.batman661);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Pinball Strategies!";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
